@@ -22,6 +22,7 @@ function afficherPanier() {
     var tt = 0;
     if (cart.length === 0) {
         cartItemsContainer.innerHTML = '<p>Votre panier est vide</p>';
+        document.getElementById("prixTotal").innerHTML = "";
         return;
     }
 
